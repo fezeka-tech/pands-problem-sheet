@@ -3,6 +3,7 @@
 def es():
     record = {}
     search = "e"
+    
     with open('moby-dick.text') as file:
         for _ in file.read() .split():
             if search in record:
