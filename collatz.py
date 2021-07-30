@@ -1,5 +1,5 @@
 #This is a python function that asks the user to input any positive integer and outputs the successive values of the following calculation...#
-def collatz|() :
+def collatz() :
 
     positive_integer = int(input("Please enter a positive integer: "))
     answer_list = [positive_integer]
@@ -17,5 +17,10 @@ def collatz|() :
 
     answer = " ".join(list(map(str, answer_list)))
     print(answer)
+    
+    
+if __name__ == "__main__":
+    collatz()
+    
 
 # Collatz Sequence, Stack Overflow; https://stackoverflow.com/questions/33324432/collatz-sequence-python-3
